@@ -1,18 +1,18 @@
-Create venv 
+Create venv:
    py -m venv .venv 
    
-Activate the venv
+Activate the venv:
   .\.venv\Scripts\activate
   
-Set the location
+Set the location:
   pulumi config set azure-native:location uksouth
   
 Install the Requirements:
   pip install -r .\requirements.txt
   
-Preview
+Preview:
   pulumi pre
   
-Create the Resources
+Create the Resources:
   pulumi up -y
   
